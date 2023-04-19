@@ -120,7 +120,6 @@ body {
 .contact {
   display: flex;
   gap: 40px;
-  margin-left: 332px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
