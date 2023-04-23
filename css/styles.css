@@ -149,7 +149,13 @@ body {
 .section-hero {
   background: var(--frequent-color);
   padding: 188px 0;
+
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  
 }
 
 .main-title {
