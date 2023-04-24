@@ -255,6 +255,22 @@ body {
   color: var(--frequent-color);
   }
 
+  .icon {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #F4F4FD;
+    border-radius: 4px; 
+  }
+
+  .distinctive-features-item-icon {
+    width: 64px;
+    height: 64px;
+  }
+
 /* Section 3  */
 
 .our-work {
