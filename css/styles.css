@@ -158,11 +158,11 @@ body {
   padding: 188px 0;
 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
-    background-repeat: no-repeat ;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #303030;
 }
 
 .main-title {
@@ -352,6 +352,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-bottom: 8px;
 }
 
 /* container-our-team */
@@ -362,6 +363,37 @@ body {
 
 .img {
   background-color: var(--fond-color);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-list-link {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  color: tomato;
+}
+
+.social-list-icon {
+fill: currentColor;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: cyan;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+fill: var(--frequent-color);
 }
 
 /* Footer */
