@@ -424,7 +424,7 @@ body {
   height: 88px;
 }
 
-.customers-list > customers-list-link {
+.customers-list-item > customers-list-link {
   width: 100%;
   height: 100%;
 }
