@@ -486,7 +486,7 @@ height: 100%;
   color: var(--fond-btn-color);
 }
 
-.footer-foote {
+.footer-container {
 display: flex;
   justify-content: center;
   align-items: center;
