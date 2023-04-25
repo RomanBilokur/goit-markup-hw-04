@@ -492,7 +492,16 @@ align-items: baseline;
 }
 
 .logo-type-text-footer {
-  
+  margin-right: 120px;
+}
+
+.social-network-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: var(--fond-color);
 }
 
 /* Portfolio */
