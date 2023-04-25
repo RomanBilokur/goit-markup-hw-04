@@ -51,6 +51,7 @@ body {
 }
 
 .container {
+  
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -483,6 +484,12 @@ height: 100%;
 /* colorr-footer-logo */
 .colorr-footer {
   color: var(--fond-btn-color);
+}
+
+.footer-foote {
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Portfolio */
