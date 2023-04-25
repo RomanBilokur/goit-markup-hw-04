@@ -416,6 +416,7 @@ color: var(--frequent-color);
 .customers-list {
   display: flex;
   gap: 24px;
+  height: 88px;
 }
 
 .customers-list-item {
