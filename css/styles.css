@@ -608,3 +608,7 @@ body {
 .post-heading {
   margin-bottom: 8px;
 }
+
+.link-a {
+  display: block;
+}
