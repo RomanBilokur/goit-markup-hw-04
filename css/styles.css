@@ -51,7 +51,6 @@ body {
 }
 
 .container {
-  
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -60,7 +59,8 @@ body {
 /* Header */
 
 .page-header {
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo-type {
@@ -151,20 +151,22 @@ body {
   align-items: center;
 }
 
-
-
 /* Section 1*/
 
 .section-hero {
   background: var(--frequent-color);
   padding: 188px 0;
   background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
-    background-position: center;
-    background-size: cover;
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: #303030;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/people-office.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #303030;
 }
 
 .main-title {
@@ -219,7 +221,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -231,7 +233,6 @@ body {
   display: flex;
   gap: 24px;
 }
-
 
 .flex-items-s {
   width: 264px;
@@ -255,19 +256,17 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--frequent-color);
-  }
+}
 
-  .icon {
-    display: flex;
-    height: 112px;
-    margin-bottom: 8px;
-    justify-content: center;
-    align-items: center;
-    background: #F4F4FD;
-    border-radius: 4px; 
-  }
-
-  
+.icon {
+  display: flex;
+  height: 112px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4fd;
+  border-radius: 4px;
+}
 
 /* Section 3  */
 
@@ -283,7 +282,6 @@ body {
   text-align: center;
   color: var(--frequent-color);
 }
-
 
 .flex-container-w {
   display: flex;
@@ -312,7 +310,8 @@ body {
 .flex-items-t {
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .post-s-t {
@@ -374,18 +373,18 @@ body {
   gap: 24px;
 }
 
-.social-list-link {
-  display:flex;
+.social-list-item {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
 }
 
 .social-list-icon {
-fill: currentColor;
+  fill: currentColor;
 }
 
 .social-list-link:hover,
@@ -395,7 +394,7 @@ fill: currentColor;
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-fill: var(--fond-btn-color);
+  fill: var(--fond-btn-color);
 }
 
 /* Section 5  */
@@ -408,10 +407,10 @@ fill: var(--fond-btn-color);
   display: flex;
   justify-content: center;
   align-items: center;
-font-size: 36px;
-line-height: 1.1;
-margin-bottom: 72px;
-color: var(--frequent-color);
+  font-size: 36px;
+  line-height: 1.1;
+  margin-bottom: 72px;
+  color: var(--frequent-color);
 }
 
 .customers-list {
@@ -425,9 +424,9 @@ color: var(--frequent-color);
   height: 88px;
 }
 
-.customers-list>customers-list-link {
-width: 100%;  
-height: 100%;
+.customers-list > customers-list-link {
+  width: 100%;
+  height: 100%;
 }
 
 .customers-list-link {
@@ -437,15 +436,13 @@ height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: var(--border-link);
-
 }
 
 .customers-list-link:hover,
 .customers-list-link:focus {
   border-color: #404bbf;
-  color: #404bbf; 
+  color: #404bbf;
 }
-
 
 /* Footer */
 
@@ -487,8 +484,8 @@ height: 100%;
 }
 
 .footer-container {
-display: flex;
-align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-type-text-footer {
@@ -502,6 +499,12 @@ align-items: baseline;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   color: var(--fond-color);
+}
+
+.social-network-list {
+  display: flex;
+  gap: 16px;
+
 }
 
 /* Portfolio */
