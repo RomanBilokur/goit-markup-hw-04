@@ -444,6 +444,10 @@ body {
   color: #404bbf;
 }
 
+.customers-list-icon {
+  fill: currentColor;
+}
+
 /* Footer */
 
 .footer {
