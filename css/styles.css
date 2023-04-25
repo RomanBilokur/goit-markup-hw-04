@@ -396,6 +396,19 @@ fill: currentColor;
 fill: var(--fond-btn-color);
 }
 
+/* Section 5  */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers-header {
+font-size: 36px;
+line-height: 1.1;
+margin-bottom: 72px;
+color: var(--frequent-color);
+}
+
 /* Footer */
 
 .footer {
