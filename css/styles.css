@@ -517,6 +517,11 @@ body {
   background-color: #4d5ae5;
 }
 
+.social-network-list-link:hover,
+.social-network-list-link:focus {
+  background-color: #31d0aa;
+}
+
 /* Portfolio */
 
 .menu-portfolio {
