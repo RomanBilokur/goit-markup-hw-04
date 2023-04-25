@@ -522,6 +522,10 @@ body {
   background-color: #31d0aa;
 }
 
+.social-network-list-icon {
+  fill: var(--fond-btn-color);
+}
+
 /* Portfolio */
 
 .menu-portfolio {
