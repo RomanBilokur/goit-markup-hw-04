@@ -409,6 +409,11 @@ margin-bottom: 72px;
 color: var(--frequent-color);
 }
 
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
 /* Footer */
 
 .footer {
