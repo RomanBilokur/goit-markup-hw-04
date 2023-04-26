@@ -46,7 +46,8 @@ body {
 .list {
   list-style: none;
 }
-.link .link-a {
+.link,
+.link-a {
   text-decoration: none;
 }
 
